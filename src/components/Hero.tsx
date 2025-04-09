@@ -9,22 +9,22 @@ export function Hero() {
         <picture>
           <source
             media="(min-width: 1024px)"
-            srcSet="/.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=1536 1x, /.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=2048 2x"
+            srcSet="/.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=1536 1x, /.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=2048 2x"
             sizes="100vw"
           />
           <source
             media="(min-width: 768px)"
-            srcSet="/.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=1024 1x, /.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=1536 2x"
+            srcSet="/.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=1024 1x, /.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=1536 2x"
             sizes="100vw"
           />
           <img
-            src="/.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=768"
-            srcSet="/.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=768 1x, /.netlify/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=1024 2x"
+            src="/.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=768"
+            srcSet="/.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=768 1x, /.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png&nf_resize=fit&w=1024 2x"
             alt="Haymarket bicycles brand logo representing the rolling hills of the piedmont region of northern virginia"
             className="w-full h-full object-cover"
             width="1536"
             height="768"
-            fetchpriority="high"
+
           />
         </picture>
         <div className="absolute inset-0 bg-gradient-to-r from-background/95 to-background/70" />
