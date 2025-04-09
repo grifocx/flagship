@@ -46,17 +46,17 @@ export function BrandShowcase() {
                 <picture>
                   <source
                     media="(min-width: 1024px)"
-                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=800 2x`}
                     sizes="25vw"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo}?nf_resize=fit&w=300 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=600 2x`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=300 1x, /.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=600 2x`}
                     sizes="50vw"
                   />
                   <img
-                    src={`/.netlify/images?url=${encodeURIComponent(brand.logo}?nf_resize=fit&w=400`}
-                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
+                    src={`/.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=400`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(brand.logo)}&nf_resize=fit&w=800 2x`}
                     alt={`${brand.name} bikes available in Haymarket, VA`}
                     className="absolute inset-0 w-full h-full object-cover rounded-md"
                     width="400"
