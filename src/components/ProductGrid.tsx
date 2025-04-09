@@ -4,11 +4,11 @@ import { Badge } from './ui/badge';
 
 const products = [
   {
-    id: 'emonda-sl6',
+    id: 'domane',
     name: 'Trek Domane SLR 7',
     category: 'Road Bikes',
     price: '$8,499.99',
-    image: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&q=80',
+    image: '/.netlify/images?url=/images/bikes/Domane.jpeg',
     badge: 'Best Seller',
     specs: ['Carbon Frame', 'Shimano Ultegra', '7.7 kg'],
   },
@@ -17,17 +17,17 @@ const products = [
     name: 'Trek Supercaliber SL',
     category: 'Mountain Bikes',
     price: '$4,199.99',
-    image: 'https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&q=80',
+    image: '/.netlify/images?url=/images/bikes/supercaliber.jpeg',
     badge: 'New Arrival',
     specs: ['Fox Suspension', 'Shimano', '29" Wheels'],
   },
   {
-    id: 'topstone',
-    name: 'Cannondale Topstone',
+    id: 'terra',
+    name: 'Orbea Terra OMR',
     category: 'Gravel Bikes',
-    price: '$2,799.99',
-    image: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&q=80',
-    specs: ['Aluminum Frame', 'Shimano GRX', 'Carbon Fork'],
+    price: '$3,499.99',
+    image: '/.netlify/images?url=/images/bikes/terra.jpeg',
+    specs: ['Sick Carbon Frame', 'Shimano GRX', 'Carbon Fork'],
   },
 ];
 
