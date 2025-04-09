@@ -28,7 +28,7 @@ const featuredProducts = [
     name: 'Orbea Terra OMR',
     category: 'Mountain Bikes',
     price: '$3,499.99',
-    image: '/images/bikes/terra.jpeg',
+    image: '/images/bikes/terra.jpg',
     badge: 'New Arrival',
     description: 'Versatile trail bike with premium build. The perfect balance of climbing efficiency and descending capability.',
     specs: ['Carbon Frame', 'Cool', 'Shimano GRX'],
