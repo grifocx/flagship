@@ -197,7 +197,7 @@ export default function VisitUsTabbed({ mainShopHours, studioHours }: VisitUsTab
                 <CardContent>
                   <div className="aspect-video relative rounded-lg overflow-hidden">
                     <iframe
-                      src="https://maps.google.com/maps?ll=38.86199,-77.774596&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=9299129892085581183&output=embed"
+                      src="https://maps.google.com/maps?ll=38.86199,-77.774596&z=16&t=m&hl=en&gl=US&mapclient=embed&cid=9299129892085581183&output=embedhttps://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3106.7110920666164!2d-77.77676014860828!3d38.86196977947591!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b670699224b661%3A0x810d255e31fa457f!2sHaymarket%20Bicycles%20Studio!5e0!3m2!1sen!2sus!4v1655828166811!5m2!1sen!2sus"
                       width="100%"
                       height="100%"
                       style={{ border: 0 }}
