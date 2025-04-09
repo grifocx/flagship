@@ -5,25 +5,25 @@ const brands = [
   {
     id: 'trek',
     name: 'Trek',
-    logo: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&q=80',
+    logo: '/images/brands/trek.png',
     description: 'Leading innovator in road and mountain bikes',
   },
   {
     id: 'cannondale',
     name: 'Cannondale',
-    logo: 'https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&q=80',
+    logo: '/images/brands/cannondale.png',
     description: 'Performance-driven bikes and equipment',
   },
   {
     id: 'orbea',
     name: 'Orbea',
-    logo: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&q=80',
+    logo: '/images/brands/orbea.png',
     description: 'Revolutionary aluminum and carbon frames',
   },
   {
     id: 'bianchi',
     name: 'Bianchi',
-    logo: 'https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80',
+    logo: '/images/brands/bianchi.png',
     description: 'Premium mountain bikes and components',
   },
 ];
@@ -46,17 +46,17 @@ export function BrandShowcase() {
                 <picture>
                   <source
                     media="(min-width: 1024px)"
-                    srcSet={`/.netlify/images/${brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
+                    srcSet={`/.netlify/images?url=${brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
                     sizes="25vw"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcSet={`/.netlify/images/${brand.logo}?nf_resize=fit&w=300 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=600 2x`}
+                    srcSet={`/.netlify/images?url=${brand.logo}?nf_resize=fit&w=300 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=600 2x`}
                     sizes="50vw"
                   />
                   <img
-                    src={`/.netlify/images/${brand.logo}?nf_resize=fit&w=400`}
-                    srcSet={`/.netlify/images/${brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
+                    src={`/.netlify/images?url=${brand.logo}?nf_resize=fit&w=400`}
+                    srcSet={`/.netlify/images?url=${brand.logo}?nf_resize=fit&w=400 1x, /.netlify/images/${brand.logo}?nf_resize=fit&w=800 2x`}
                     alt={`${brand.name} bikes available in Haymarket, VA`}
                     className="absolute inset-0 w-full h-full object-cover rounded-md"
                     width="400"
