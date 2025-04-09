@@ -5,9 +5,9 @@ import { Badge } from './ui/badge';
 const featuredProducts = [
   {
     id: 'emonda-sl6-featured',
-    name: 'Trek Émonda SL 6',
+    name: 'Trek Domane SLR 7',
     category: 'Road Bikes',
-    price: '$4,399.99',
+    price: '$8,499.99',
     image: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&q=80',
     badge: 'Featured',
     description: 'Lightweight carbon frame with Shimano Ultegra components. Perfect for climbing and long-distance rides.',
@@ -17,21 +17,21 @@ const featuredProducts = [
     id: 'supercal',
     name: 'Trek Supercaliber SL',
     category: 'Mountain Bikes',
-    price: '$3,299.99',
+    price: '$4,199.99',
     image: 'https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&q=80',
     badge: 'Staff Pick',
     description: 'Trail-ready full suspension with modern geometry. Handles everything from flow trails to technical descents.',
-    specs: ['Fox Suspension', 'SRAM GX Eagle', '29" Wheels'],
+    specs: ['Fox Suspension', 'Shimano', '29" Wheels'],
   },
   {
     id: 'hightower-featured',
-    name: 'Santa Cruz Hightower',
+    name: 'Orbea Terra OMR',
     category: 'Mountain Bikes',
-    price: '$5,499.99',
+    price: '$3,499.99',
     image: 'https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&q=80',
     badge: 'New Arrival',
     description: 'Versatile trail bike with premium build. The perfect balance of climbing efficiency and descending capability.',
-    specs: ['Carbon Frame', 'Fox 36 Fork', 'SRAM X01'],
+    specs: ['Carbon Frame', 'Cool', 'Shimano GRX'],
   },
 ];
 
