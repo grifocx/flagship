@@ -27,6 +27,11 @@ const milestones = [
     description: 'Moved to our current location, tripling our showroom space and adding a dedicated service center.',
     icon: MapPin,
   },
+  year: '2025',
+  title: 'New Era',
+  description: 'Jared and Eric taking things to the next level!',
+  icon: Bike,
+},
 ];
 
 export function History() {
@@ -35,7 +40,7 @@ export function History() {
       <div className="text-center mb-16">
         <h2 className="text-3xl font-bold">Our Journey</h2>
         <p className="mt-4 text-lg text-muted-foreground">
-          17 years of serving the Northern Virginia cycling community
+          18 years of serving the Northern Virginia cycling community
         </p>
       </div>
 
