@@ -29,7 +29,7 @@ export function ProductFilters() {
         <div className="space-y-4">
           <h3 className="font-medium">Brands</h3>
           <div className="space-y-2">
-            {['Trek', 'Specialized', 'Cannondale', 'Santa Cruz', 'Giant'].map(
+            {['Trek', 'Orbea', 'Cannondale', 'Bianchi', 'GT'].map(
               (brand) => (
                 <div key={brand} className="flex items-center space-x-2">
                   <Checkbox id={brand} />
