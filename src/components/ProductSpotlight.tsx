@@ -5,10 +5,10 @@ import { Badge } from './ui/badge';
 const featuredProducts = [
   {
     id: 'domane',
-    name: 'Trek Domane SLR 7',
+    name: 'Trek Émonda SL 6',
     category: 'Road Bikes',
     price: '$8,499.99',
-    image: '/.netlify/images?url=/images/bikes/Domane.jpeg',
+    image: '/images/bikes/Domane.jpeg',
     badge: 'Featured',
     description: 'Lightweight carbon frame with Shimano Ultegra components. Perfect for climbing and long-distance rides.',
     specs: ['Carbon Frame', 'Shimano Ultegra', '7.7 kg'],
@@ -18,7 +18,7 @@ const featuredProducts = [
     name: 'Trek Supercaliber SL',
     category: 'Mountain Bikes',
     price: '$4,199.99',
-    image: '/.netlify/images?url=/images/bikes/supercaliber.jpeg',
+    image: '/images/bikes/supercaliber.jpeg',
     badge: 'Staff Pick',
     description: 'Trail-ready full suspension with modern geometry. Handles everything from flow trails to technical descents.',
     specs: ['Fox Suspension', 'Shimano', '29" Wheels'],
@@ -28,7 +28,7 @@ const featuredProducts = [
     name: 'Orbea Terra OMR',
     category: 'Mountain Bikes',
     price: '$3,499.99',
-    image: '/.netlify/images?url=/images/bikes/terra.jpeg',
+    image: '/images/bikes/terra.jpeg',
     badge: 'New Arrival',
     description: 'Versatile trail bike with premium build. The perfect balance of climbing efficiency and descending capability.',
     specs: ['Carbon Frame', 'Cool', 'Shimano GRX'],
@@ -53,17 +53,17 @@ export function ProductSpotlight() {
                 <picture>
                   <source
                     media="(min-width: 1024px)"
-                    srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=600 1x, /.netlify/images/${product.image}?nf_resize=fit&w=1200 2x`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=600 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=1200 2x`}
                     sizes="33vw"
                   />
                   <source
                     media="(min-width: 768px)"
-                    srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=400 1x, /.netlify/images/${product.image}?nf_resize=fit&w=800 2x`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=800 2x`}
                     sizes="50vw"
                   />
                   <img
-                    src={`/.netlify/images/${product.image}?nf_resize=fit&w=400`}
-                    srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=400 1x, /.netlify/images/${product.image}?nf_resize=fit&w=800 2x`}
+                    src={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400`}
+                    srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=800 2x`}
                     alt={`${product.name} - ${product.category} available at Haymarket Bicycles in Northern Virginia`}
                     className="absolute inset-0 w-full h-full object-cover"
                     width="600"
