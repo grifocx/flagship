@@ -27,6 +27,7 @@ const milestones = [
     description: 'Moved to our current location, tripling our showroom space and adding a dedicated service center.',
     icon: MapPin,
   },
+  {
   year: '2025',
   title: 'New Era',
   description: 'Jared and Eric taking things to the next level!',
