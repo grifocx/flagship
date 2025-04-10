@@ -8,7 +8,7 @@ const products = [
     name: 'Trek Domane SLR 7',
     category: 'Road Bikes',
     price: '$8,499.99',
-    image: '/.netlify/images?url=/images/bikes/Domane.jpeg',
+    image: '/images/bikes/Domane.jpeg',
     badge: 'Best Seller',
     specs: ['Carbon Frame', 'Shimano Ultegra', '7.7 kg'],
   },
@@ -17,7 +17,7 @@ const products = [
     name: 'Trek Supercaliber SL',
     category: 'Mountain Bikes',
     price: '$4,199.99',
-    image: '/.netlify/images?url=/images/bikes/supercaliber.jpeg',
+    image: '/images/bikes/supercaliber.jpeg',
     badge: 'New Arrival',
     specs: ['Fox Suspension', 'Shimano', '29" Wheels'],
   },
@@ -26,7 +26,7 @@ const products = [
     name: 'Orbea Terra OMR',
     category: 'Gravel Bikes',
     price: '$3,499.99',
-    image: '/.netlify/images?url=/images/bikes/terra.jpeg',
+    image: '/images/bikes/terra.jpeg',
     specs: ['Sick Carbon Frame', 'Shimano GRX', 'Carbon Fork'],
   },
 ];
@@ -41,17 +41,17 @@ export function ProductGrid() {
               <picture>
                 <source
                   media="(min-width: 1280px)"
-                  srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=600 1x, /.netlify/images/${product.image}?nf_resize=fit&w=1200 2x`}
+                  srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=600 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=1200 2x`}
                   sizes="33vw"
                 />
                 <source
                   media="(min-width: 768px)"
-                  srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=400 1x, /.netlify/images/${product.image}?nf_resize=fit&w=800 2x`}
+                  srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=800 2x`}
                   sizes="50vw"
                 />
                 <img
-                  src={`/.netlify/images/${product.image}?nf_resize=fit&w=400`}
-                  srcSet={`/.netlify/images/${product.image}?nf_resize=fit&w=400 1x, /.netlify/images/${product.image}?nf_resize=fit&w=800 2x`}
+                  src={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400`}
+                  srcSet={`/.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=400 1x, /.netlify/images?url=${encodeURIComponent(product.image)}&nf_resize=fit&w=800 2x`}
                   alt={`${product.name} - ${product.category} available at Haymarket Bicycles in Northern Virginia`}
                   className="w-full h-full object-cover"
                   width="600"
