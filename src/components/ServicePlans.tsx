@@ -4,8 +4,8 @@ import { Check } from 'lucide-react';
 
 const plans = [
   {
-    name: 'Basic Plan',
-    price: '$299.99/year',
+    name: 'Level 1',
+    price: '$99.99',
     description: 'Essential maintenance for casual riders',
     features: [
       'Four seasonal tune-ups',
@@ -17,8 +17,8 @@ const plans = [
     ],
   },
   {
-    name: 'Pro Plan',
-    price: '$499.99/year',
+    name: 'Level 2',
+    price: '$199.99/year',
     description: 'Comprehensive care for serious cyclists',
     features: [
       'Everything in Basic Plan',
@@ -31,8 +31,8 @@ const plans = [
     ],
   },
   {
-    name: 'Elite Plan',
-    price: '$799.99/year',
+    name: 'Level 3',
+    price: '$299.99/year',
     description: 'Ultimate care for performance athletes',
     features: [
       'Everything in Pro Plan',
