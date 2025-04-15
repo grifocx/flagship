@@ -4,15 +4,23 @@ import { Wrench, Ruler, Calendar, Shield, Settings, Bike, PenTool as Tool, Cog }
 
 const services = [
   {
-    title: 'Basic Tune-Up',
-    price: '$89.99',
+    title: 'Basic Tune-Up - Level 1',
+    price: '$99.99',
     description:
       'Complete safety check, gear adjustment, brake adjustment, tire inspection, and basic cleaning.',
     duration: '1-2 days',
     icon: Wrench,
   },
   {
-    title: 'Comprehensive Tune-Up',
+    title: 'Comprehensive Tune-Up - Level 2',
+    price: '$159.99',
+    description:
+      'Everything in basic tune-up plus bearing adjustments, wheel truing, and deep cleaning.',
+    duration: '2-3 days',
+    icon: Settings,
+  },
+  {
+    title: 'Overhaul Tune-Up - Level 3',
     price: '$159.99',
     description:
       'Everything in basic tune-up plus bearing adjustments, wheel truing, and deep cleaning.',
@@ -28,14 +36,6 @@ const services = [
     icon: Ruler,
   },
   {
-    title: 'Wheel Building & Truing',
-    price: '$79.99',
-    description:
-      'Custom wheel building and professional truing services for optimal performance.',
-    duration: '1-2 days',
-    icon: Cog,
-  },
-  {
     title: 'Suspension Service',
     price: '$149.99',
     description:
@@ -45,17 +45,17 @@ const services = [
   },
   {
     title: 'E-Bike Service',
-    price: '$129.99',
+    price: 'Price Varies',
     description:
       'Specialized maintenance for electric bikes, including system diagnostics.',
-    duration: '1-2 days',
+    duration: 'Varies',
     icon: Bike,
   },
   {
-    title: 'Annual Maintenance Plan',
-    price: '$299.99/year',
+    title: 'Travel Case Rental',
+    price: '$99.99',
     description:
-      'Four seasonal tune-ups, priority service, and 10% off additional repairs.',
+      'Hard and soft cases availible for all types of bikes',
     duration: 'Year-round',
     icon: Calendar,
   },
