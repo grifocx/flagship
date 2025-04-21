@@ -18,7 +18,7 @@ const plans = [
   },
   {
     name: 'Level 2',
-    price: '$199.99/year',
+    price: '$159.99',
     description: 'Comprehensive care for serious cyclists',
     features: [
       'Everything in Basic Plan',
@@ -32,7 +32,7 @@ const plans = [
   },
   {
     name: 'Level 3',
-    price: '$299.99/year',
+    price: '$349.99',
     description: 'Ultimate care for performance athletes',
     features: [
       'Everything in Pro Plan',

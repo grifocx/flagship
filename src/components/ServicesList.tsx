@@ -21,7 +21,7 @@ const services = [
   },
   {
     title: 'Overhaul Tune-Up - Level 3',
-    price: '$159.99',
+    price: '$349.99',
     description:
       'Everything in basic tune-up plus bearing adjustments, wheel truing, and deep cleaning.',
     duration: '2-3 days',
