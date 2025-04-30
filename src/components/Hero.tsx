@@ -35,7 +35,7 @@ export function Hero() {
             Haymarket's Neighborhood Bicycle Shop Since 2007
           </h1>
           <p className="mt-6 text-xl text-muted-foreground max-w-2xl">
-            Serving Northern Virginia's cycling community for 17 years with expert service, quality bikes, and community of cycling enthusiasts.
+            Serving Northern Virginia's cycling community for 18 years with expert service, quality bikes, and community of cycling enthusiasts.
           </p>
           <div className="mt-8 md:hidden">
             <Button size="lg" variant="secondary" className="min-h-[48px]" asChild>
