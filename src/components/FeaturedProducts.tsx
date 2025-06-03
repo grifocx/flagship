@@ -34,7 +34,7 @@ export function FeaturedProducts() {
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16 fade-in">
-          <h2 className="text-3xl font-bold">Quality Bikes Available in Haymarket</h2>
+          <h2 className="text-3xl font-bold">Quality Bikes Available in Haymarket, VA</h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Discover our handpicked selection of quality bicycles for Northern Virginia riders
           </p>

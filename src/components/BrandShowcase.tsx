@@ -24,7 +24,7 @@ const brands = [
     id: 'bianchi',
     name: 'Bianchi',
     logo: '/images/brands/bianchi.png',
-    description: 'Premium mountain bikes and components',
+    description: 'Premium European bikes and components',
   },
 ];
 
