@@ -24,7 +24,13 @@ const brands = [
     id: 'bianchi',
     name: 'Bianchi',
     logo: '/images/brands/bianchi.png',
-    description: 'Premium mountain bikes and components',
+    description: 'Premium European bikes and components',
+  },
+  {
+    id: 'woom',
+    name: 'Woom',
+    logo: '/images/brands/woom.png',
+    description: 'Best kids bikes in the world',
   },
 ];
 
