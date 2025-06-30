@@ -18,13 +18,13 @@ const brands = [
     id: 'orbea',
     name: 'Orbea',
     logo: '/images/brands/orbea.png',
-    description: 'Revolutionary aluminum and carbon frames',
+    description: 'Revolutionary Euro carbon frames',
   },
   {
     id: 'bianchi',
     name: 'Bianchi',
     logo: '/images/brands/bianchi.png',
-    description: 'Premium European bikes and components',
+    description: 'Premium old school Euro bikes',
   },
   {
     id: 'woom',
