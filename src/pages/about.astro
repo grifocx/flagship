@@ -2,60 +2,8 @@
 import Layout from '../layouts/Layout.astro';
 import { Mission } from '../components/Mission';
 import { History } from '../components/History';
-import { TeamMember } from '../components/TeamMember';
 import LocalBusinessSchema from '../components/LocalBusinessSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
-
-const team = [
-  {
-    id: '1',
-    name: 'Jared N',
-    role: 'Owner & Chief Fun Officer',
-    image: '/images/team.jared.jpg',
-    bio: 'With over 20 years of experience in the cycling industry, Jared co-founded Haymarket Bicycles to share his passion for bikes with the community.',
-    certifications: ['Retul Certified', 'Shimano S-TEC','USA Cycling Coach'],
-  },
-  {
-    id: '2',
-    name: 'Logan H.',
-    role: 'Service Manager',
-    image: '/images/team/logan.jpg',
-    bio: 'Logan leads our service department with expertise in all types of bicycle mechanics. He brings pride to helping keep people on the two wheels enjoying freedom and joy from bicycles.',
-    certifications: ['Trek U Explorer', 'Shimano Certified', 'SRAM Certified'],
-  },
-  {
-    id: '3',
-    name: 'Ryan E.',
-    role: 'Sales Manager',
-    image: '/images/team/ryan.jpg',
-    bio: 'Ryan brings his skills to provide a stellar retail experience and is our expert in product and customer service.',
-    certifications: ['Trek U Explorer', 'Watches YouTube Videos'],
-  },
-  {
-    id: '4',
-    name: 'Eric G.',
-    role: 'Co-Owner and CTO',
-    image: '/images/team/grifo.jpg',
-    bio: 'Eric helps keep operations running smoothly in the background, allowing the team to focus on customers.',
-    certifications: ['OKR Certified', 'Trek U Guide', 'Shimano S-Tec'],
-  },
-  {
-    id: '5',
-    name: 'Cohen',
-    role: 'Service Tech',
-    image: '/images/team/grifo.jpg',
-    bio: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.',
-    certifications: ['OKR Certified', 'Trek U Guide', 'Shimano S-Tec'],
-  },
-  {
-    id: '6',
-    name: 'Ethan',
-    role: 'Service Tech',
-    image: '/images/team/grifo.jpg',
-    bio: 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.',
-    certifications: ['OKR Certified', 'Trek U Guide', 'Shimano S-Tec'],
-  },
-];
 
 const breadcrumbItems = [
   { name: "Home", url: "https://haymarketbicycles.com/" },
@@ -90,31 +38,6 @@ const breadcrumbItems = [
 
     <Mission client:load />
     <History client:load />
-
-    <section class="py-24">
-      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div class="text-center mb-16">
-          <h2 class="text-3xl font-bold">Meet Our Haymarket & Gainesville Bicycle Experts</h2>
-          <p class="mt-4 text-lg text-muted-foreground">
-            Experienced professionals dedicated to your cycling journey in Northern Virginia
-          </p>
-        </div>
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {team.map((member) => (
-            <TeamMember
-              key={member.id}
-              client:load
-              name={member.name}
-              role={member.role}
-              image={member.image}
-              bio={member.bio}
-              certifications={member.certifications}
-            />
-          ))}
-        </div>
-      </div>
-    </section>
   </main>
   <LocalBusinessSchema />
   <BreadcrumbSchema items={breadcrumbItems} />
