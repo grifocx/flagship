@@ -28,11 +28,17 @@ const milestones = [
     icon: MapPin,
   },
   {
-  year: '2025',
-  title: 'New Era',
-  description: 'Jared and Eric taking things to the next level!',
-  icon: Bike,
-},
+    year: '2023',
+    title: 'E-bike Specialization',
+    description: 'Expanded our e-bike product line and became certified specialists in electric bike service, battery diagnostics, and motor maintenance.',
+    icon: Bike,
+  },
+  {
+    year: '2025',
+    title: 'New Era',
+    description: 'Jared and Eric taking things to the next level!',
+    icon: Bike,
+  },
 ];
 
 export function History() {
