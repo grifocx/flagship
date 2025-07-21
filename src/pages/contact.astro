@@ -4,7 +4,6 @@ import LocalBusinessSchema from '../components/LocalBusinessSchema.astro';
 import BreadcrumbSchema from '../components/BreadcrumbSchema.astro';
 import { LocationNavigation } from '../components/LocationNavigation';
 import { LocationSections } from '../components/LocationSections';
-import { ContactForm } from '../components/ContactForm';
 
 const breadcrumbItems = [
   { name: "Home", url: "https://haymarketbicycles.com/" },
@@ -68,13 +67,6 @@ const studioHours = [
               </div>
             </div>
           </div>
-        </div>
-      </div>
-      
-      <div class="mb-24">
-        <h2 class="text-2xl font-bold mb-8">Send Us a Message</h2>
-        <div class="max-w-2xl mx-auto">
-          <ContactForm client:load />
         </div>
       </div>
       
