@@ -98,14 +98,6 @@ const services = [
       'Custom wheel builds and precision truing for optimal performance and durability.',
     duration: '3-5 days',
     icon: Cog,
-  },
-  {
-    title: 'Warranty Service',
-    price: 'Varies',
-    description: 'Authorized warranty repairs for major bike brands.',
-    duration: 'Varies',
-    icon: Shield,
-  },
 ];
 
 export function ServicesList() {

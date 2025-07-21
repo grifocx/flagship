@@ -32,6 +32,12 @@ const brands = [
     logo: '/images/brands/woom.png',
     description: 'Best kids bikes in the world',
   },
+  {
+    id: 'aventon',
+    name: 'Aventon',
+    logo: '/images/brands/aventon.png',
+    description: 'Premium electric bikes and accessories',
+  },
 ];
 
 export function BrandShowcase() {

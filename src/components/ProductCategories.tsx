@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { Bike, Mountain, Loader as Road, Compass, Wrench, Shirt } from 'lucide-react';
+import { Bike, Mountain, Loader as Road, Compass, Wrench, Shirt, Battery } from 'lucide-react';
 
 const categories = [
   {
@@ -23,7 +23,7 @@ const categories = [
   },
   {
     name: 'Electric Bikes',
-    icon: Bike,
+    icon: Battery,
     description: 'Pedal-assist bikes for extended rides',
     href: '/products/electric-bikes',
   },
