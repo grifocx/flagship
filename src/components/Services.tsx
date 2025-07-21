@@ -1,5 +1,5 @@
 import React from 'react';
-import { Wrench, Ruler, Calendar, Shield } from 'lucide-react';
+import { Wrench, Ruler, Calendar, Battery } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription } from './ui/card';
 
 const services = [
@@ -19,9 +19,9 @@ const services = [
     icon: Calendar,
   },
   {
-    title: 'Warranty Service',
-    description: 'Authorized warranty service for major bike brands.',
-    icon: Shield,
+    title: 'E-bike Service',
+    description: 'Specialized diagnostics, battery service, and motor maintenance for all major e-bike systems.',
+    icon: Battery,
   },
 ];
 
