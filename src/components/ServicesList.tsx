@@ -76,6 +76,14 @@ const services = [
     icon: Monitor,
   },
   {
+    title: 'Bike Assembly',
+    price: '$89.99',
+    description:
+      'Professional assembly of new bikes from the box, including safety checks and adjustments.',
+    duration: '2-4 hours',
+    icon: Tool,
+  },
+  {
     title: 'Travel Case Rental',
     price: '$99.99',
     description:
