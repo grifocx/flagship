@@ -15,7 +15,7 @@ const values = [
   },
   {
     title: 'Expert Service',
-    description: 'Our certified technicians provide the highest level of professional service for all types of bikes.',
+    description: 'Our certified technicians provide the highest level of professional service for all types of bikes, including specialized e-bike diagnostics and battery service.',
     icon: Wrench,
   },
   {

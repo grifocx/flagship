@@ -194,24 +194,29 @@ This document outlines the comprehensive SEO strategy implemented for the Haymar
 ### Keyword Research
 - Focus on location-specific keywords
 - Target service-specific terms
+- Include e-bike and electric bike variations
 - Include long-tail variations
 - Research competitor keywords
 
 ### Content Calendar
 - Plan monthly content updates
 - Schedule seasonal content
+- Include e-bike maintenance seasonal content
 - Coordinate with local events
 - Maintain consistent publishing schedule
 
 ### Content Types
 - How-to guides for bike maintenance
+- E-bike specific maintenance and care guides
 - Buying guides for different bike types
+- E-bike service selection guides
 - Local cycling route guides
 - Event announcements and recaps
 - Staff profiles and expertise showcases
 
 ### Content Optimization
 - Include target keywords in titles and headings
+- Integrate e-bike keywords naturally throughout content
 - Add location references where appropriate
 - Optimize image alt text
 - Include internal links to relevant content
