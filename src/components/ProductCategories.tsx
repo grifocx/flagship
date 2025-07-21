@@ -1,11 +1,11 @@
 import React from 'react';
 import { Card, CardContent } from './ui/card';
-import { Bike, Mountain, Loader as Road, Compass, Wrench, Shirt, Battery } from 'lucide-react';
+import { Bike, Mountain, Compass, Wrench, Shirt, Battery } from 'lucide-react';
 
 const categories = [
   {
     name: 'Road Bikes',
-    icon: Road,
+    icon: Bike,
     description: 'Performance road bikes for speed and endurance',
     href: '/products/road-bikes',
   },
