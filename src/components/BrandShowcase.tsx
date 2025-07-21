@@ -50,7 +50,7 @@ export function BrandShowcase() {
         </p>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {brands.map((brand) => (
           <Card key={brand.id} className="overflow-hidden hover-scale">
             <CardContent className="p-6">
