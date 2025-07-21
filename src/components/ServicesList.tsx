@@ -84,6 +84,14 @@ const services = [
     icon: Calendar,
   },
   {
+    title: 'Wheel Building & Truing',
+    price: '$149.99',
+    description:
+      'Custom wheel builds and precision truing for optimal performance and durability.',
+    duration: '3-5 days',
+    icon: Cog,
+  },
+  {
     title: 'Warranty Service',
     price: 'Varies',
     description: 'Authorized warranty repairs for major bike brands.',
