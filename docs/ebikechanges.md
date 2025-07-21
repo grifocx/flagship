@@ -28,9 +28,9 @@ This document provides step-by-step implementation tasks for enhancing the e-bik
 
 **New Services to Add:**
 - E-bike Diagnostics & System Check ($89.99)
-- E-bike Battery Service ($149.99)
-- E-bike Motor Maintenance ($199.99)
-- E-bike Display & Controller Repair ($125.99)
+- E-bike Firmware Service ($149.99)
+- E-bike Tune Up Packages (price varies)
+- E-bike Assembly (price varies)
 
 #### Task 2: Add E-bike Maintenance Plan
 **File to Modify:** `src/components/ServicePlans.tsx`
