@@ -1,6 +1,6 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Wrench, Ruler, Calendar, Shield, Settings, Bike, PenTool as Tool, Cog } from 'lucide-react';
+import { Wrench, Ruler, Calendar, Shield, Settings, Bike, PenTool as Tool, Cog, Battery, Monitor } from 'lucide-react';
 
 const services = [
   {
@@ -44,12 +44,36 @@ const services = [
     icon: Tool,
   },
   {
-    title: 'E-Bike Service',
-    price: 'Price Varies',
+    title: 'E-bike Diagnostics & System Check',
+    price: '$89.99',
     description:
-      'Specialized maintenance for electric bikes, including system diagnostics.',
-    duration: 'Varies',
+      'Comprehensive electrical system diagnostic including battery health, motor performance, and display functionality testing.',
+    duration: '1-2 hours',
     icon: Bike,
+  },
+  {
+    title: 'E-bike Battery Service',
+    price: '$149.99',
+    description:
+      'Battery health assessment, cell balancing, charging system check, and replacement recommendations for all major brands.',
+    duration: '2-3 hours',
+    icon: Battery,
+  },
+  {
+    title: 'E-bike Motor Maintenance',
+    price: '$199.99',
+    description:
+      'Motor inspection, bearing service, sensor calibration, and performance optimization for Bosch, Shimano, and Brose systems.',
+    duration: '3-4 hours',
+    icon: Cog,
+  },
+  {
+    title: 'E-bike Display & Controller Repair',
+    price: '$125.99',
+    description:
+      'Display troubleshooting, controller diagnostics, wiring inspection, and software updates.',
+    duration: '1-3 hours',
+    icon: Monitor,
   },
   {
     title: 'Travel Case Rental',

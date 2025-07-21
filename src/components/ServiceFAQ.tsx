@@ -37,6 +37,26 @@ const faqs = [
     answer:
       'Yes, all our service work is backed by a 30-day warranty. If you experience any issues related to our service within this period, we\'ll fix it at no additional cost.',
   },
+  {
+    question: 'Do you service all e-bike brands and systems?',
+    answer:
+      'Yes, our certified technicians are trained on all major e-bike systems including Bosch, Shimano, Brose, Yamaha, and Bafang. We have the diagnostic tools and expertise to service both mid-drive and hub motor systems.',
+  },
+  {
+    question: 'How often should I service my e-bike?',
+    answer:
+      'E-bikes require more frequent service than traditional bikes due to their electrical components. We recommend a comprehensive check every 3-4 months or 500-750 miles, with battery health checks every 6 months.',
+  },
+  {
+    question: 'Can you replace my e-bike battery?',
+    answer:
+      'Absolutely! We stock batteries for most major brands and can order specific replacements. We also offer battery rebuilding services for older or discontinued models when possible.',
+  },
+  {
+    question: 'Do you offer e-bike software updates?',
+    answer:
+      'Yes, we can perform firmware updates for Bosch, Shimano, and other systems that support over-the-air updates. This helps optimize performance and add new features.',
+  },
 ];
 
 export function ServiceFAQ() {
