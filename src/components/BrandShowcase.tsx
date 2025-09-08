@@ -23,8 +23,8 @@ const brands = [
   {
     id: 'bianchi',
     name: 'Bianchi',
-    logo: '/images/brands/bianchi.png',
-    description: 'Premium old school Euro bikes',
+    logo: '/images/brands/Aventon.png',
+    description: 'Quality and affordable e-bikes',
   },
   {
     id: 'woom',
