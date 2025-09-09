@@ -1,131 +1,59 @@
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from './ui/card';
-import { Wrench, Ruler, Calendar, Shield, Settings, Bike, PenTool as Tool, Cog, Battery, Monitor } from 'lucide-react';
+import { Wrench, Ruler, Calendar, Settings, Bike, PenTool as Tool, Cog, Battery, Monitor } from 'lucide-react';
 
-const services = [
-  {
-    title: 'Basic Tune-Up - Level 1',
-    price: '$99.99',
-    description:
-      'Complete safety check, gear adjustment, brake adjustment, tire inspection, and basic cleaning.',
-    duration: '1-2 days',
-    icon: Wrench,
-  },
-  {
-    title: 'Comprehensive Tune-Up - Level 2',
-    price: '$159.99',
-    description:
-      'Everything in basic tune-up plus bearing adjustments, wheel truing, and deep cleaning.',
-    duration: '2-3 days',
-    icon: Settings,
-  },
-  {
-    title: 'Overhaul Tune-Up - Level 3',
-    price: '$349.99',
-    description:
-      'Everything in basic tune-up plus bearing adjustments, wheel truing, and deep cleaning.',
-    duration: '2-3 days',
-    icon: Settings,
-  },
-  {
-    title: 'Professional Bike Fitting',
-    price: '$249.99',
-    description:
-      'Complete biomechanical assessment and bike adjustment for optimal comfort and performance.',
-    duration: '2-3 hours',
-    icon: Ruler,
-  },
-  {
-    title: 'Suspension Service',
-    price: '$149.99',
-    description:
-      'Fork and shock maintenance, including oil change and seal replacement.',
-    duration: '2-3 days',
-    icon: Tool,
-  },
-  {
-    title: 'E-bike Diagnostics & System Check',
-    price: '$89.99',
-    description:
-      'Comprehensive electrical system diagnostic including battery health, motor performance, and display functionality testing.',
-    duration: '1-2 hours',
-    icon: Bike,
-  },
-  {
-    title: 'E-bike Battery Service',
-    price: '$149.99',
-    description:
-      'Battery health assessment, cell balancing, charging system check, and replacement recommendations for all major brands.',
-    duration: '2-3 hours',
-    icon: Battery,
-  },
-  {
-    title: 'E-bike Motor Maintenance',
-    price: '$199.99',
-    description:
-      'Motor inspection, bearing service, sensor calibration, and performance optimization for Bosch, Shimano, and Brose systems.',
-    duration: '3-4 hours',
-    icon: Cog,
-  },
-  {
-    title: 'E-bike Display & Controller Repair',
-    price: '$125.99',
-    description:
-      'Display troubleshooting, controller diagnostics, wiring inspection, and software updates.',
-    duration: '1-3 hours',
-    icon: Monitor,
-  },
-  {
-    title: 'Bike Assembly',
-    price: '$89.99',
-    description:
-      'Professional assembly of new bikes from the box, including safety checks and adjustments.',
-    duration: '2-4 hours',
-    icon: Tool,
-  },
-  {
-    title: 'Travel Case Rental',
-    price: '$99.99',
-    description:
-      'Hard and soft cases availible for all types of bikes',
-    duration: 'Year-round',
-    icon: Calendar,
-  },
-  {
-    title: 'Wheel Building & Truing',
-    price: '$149.99',
-    description:
-      'Custom wheel builds and precision truing for optimal performance and durability.',
-    duration: '3-5 days',
-    icon: Cog,
-  },
-];
+const iconMap = {
+  Wrench,
+  Ruler,
+  Calendar,
+  Settings,
+  Bike,
+  Tool,
+  Cog,
+  Battery,
+  Monitor,
+};
 
-export function ServicesList() {
+interface Service {
+  title: string;
+  price: string;
+  description: string;
+  duration: string;
+  icon: keyof typeof iconMap;
+}
+
+interface ServicesListProps {
+  services: Service[];
+}
+
+export function ServicesList({ services }: ServicesListProps) {
   return (
     <div>
       <h2 className="text-2xl font-bold mb-6">Quality and Affordable Bicycle Services in Haymarket, VA</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 mb-24">
-        {services.map((service) => (
-          <Card key={service.title} className="hover-scale">
-            <CardHeader>
-              <div className="mb-4 inline-block p-3 bg-accent/10 rounded-lg">
-                <service.icon className="h-6 w-6 text-accent" />
-              </div>
-              <CardTitle>{service.title}</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <p className="text-muted-foreground mb-4">{service.description}</p>
-              <div className="flex items-center justify-between text-sm">
-                <span className="text-muted-foreground">Duration:</span>
-                <span>{service.duration}</span>
-              </div>
-              <div className="mt-4 text-lg font-semibold text-accent text-center">
-                {service.price}
-              </div>
-            </CardContent>
-          </Card>
-        ))}
+        {services.map((service) => {
+          const IconComponent = iconMap[service.icon];
+          return (
+            <Card key={service.title} className="hover-scale">
+              <CardHeader>
+                <div className="mb-4 inline-block p-3 bg-accent/10 rounded-lg">
+                  <IconComponent className="h-6 w-6 text-accent" />
+                </div>
+                <CardTitle>{service.title}</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground mb-4">{service.description}</p>
+                <div className="flex items-center justify-between text-sm">
+                  <span className="text-muted-foreground">Duration:</span>
+                  <span>{service.duration}</span>
+                </div>
+                <div className="mt-4 text-lg font-semibold text-accent text-center">
+                  {service.price}
+                </div>
+              </CardContent>
+            </Card>
+          );
+        })}
       </div>
     </div>
   );

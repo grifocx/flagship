@@ -1,0 +1,8 @@
+---
+import { getCollection } from 'astro:content';
+import { ServicesList } from './ServicesList';
+
+const services = await getCollection('services');
+---
+
+<ServicesList services={services.map(s => s.data)} />

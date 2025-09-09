@@ -6,6 +6,7 @@ import { HomeSections } from '../components/HomeSections';
 import LocalBusinessSchema from '../components/LocalBusinessSchema.astro';
 import { LocationNavigation } from '../components/LocationNavigation';
 import { LocationSections } from '../components/LocationSections';
+import FeaturedProducts from '../components/FeaturedProducts.astro';
 
 // Custom OG image for homepage
 const ogImage = "/.netlify/images?url=/images/logo/Haymarket%20Bicycles%20Logo%202024_Social%20Icon%20-%20Linkedin%20Cover%20Colors%20-%201536x768px%20.png?nf_resize=fit&w=768";
@@ -44,6 +45,7 @@ const studioHours = [
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <SimpleNavigation client:load />
         <HomeSections client:load />
+        <FeaturedProducts />
       </div>
     </div>
     

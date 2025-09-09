@@ -1,0 +1,155 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`FeaturedProducts > renders correctly 1`] = `
+<DocumentFragment>
+  <section
+    class="py-24"
+  >
+    <div
+      class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+    >
+      <div
+        class="text-center mb-16 fade-in"
+      >
+        <h2
+          class="text-3xl font-bold"
+        >
+          Quality Bikes Available in Haymarket, VA
+        </h2>
+        <p
+          class="mt-4 text-lg text-muted-foreground"
+        >
+          Discover our handpicked selection of quality bicycles for Northern Virginia riders
+        </p>
+      </div>
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+      >
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden hover-scale"
+        >
+          <div
+            class="flex flex-col space-y-1.5 p-0"
+          >
+            <div
+              class="relative h-64"
+            >
+              <img
+                alt="Trek Émonda SL 6 available in Haymarket and Gainesville, VA"
+                class="w-full h-full object-cover"
+                src="/images/products/emonda.jpg"
+              />
+              <div
+                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-primary/80 absolute top-4 right-4 bg-accent"
+              >
+                Best Seller
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-6"
+          >
+            <h3
+              class="text-xl font-semibold mb-2"
+            >
+              Trek Émonda SL 6
+            </h3>
+            <p
+              class="text-sm text-muted-foreground"
+            >
+              Road Bikes
+            </p>
+            <p
+              class="text-lg font-semibold mt-2"
+            >
+              $4,399.99
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden hover-scale"
+        >
+          <div
+            class="flex flex-col space-y-1.5 p-0"
+          >
+            <div
+              class="relative h-64"
+            >
+              <img
+                alt="Trek Supercaliber SL available in Haymarket and Gainesville, VA"
+                class="w-full h-full object-cover"
+                src="/images/products/supercaliber.jpg"
+              />
+              <div
+                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-primary/80 absolute top-4 right-4 bg-accent"
+              >
+                New Arrival
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-6"
+          >
+            <h3
+              class="text-xl font-semibold mb-2"
+            >
+              Trek Supercaliber SL
+            </h3>
+            <p
+              class="text-sm text-muted-foreground"
+            >
+              Mountain Bikes
+            </p>
+            <p
+              class="text-lg font-semibold mt-2"
+            >
+              $3,299.99
+            </p>
+          </div>
+        </div>
+        <div
+          class="rounded-lg border bg-card text-card-foreground shadow-sm overflow-hidden hover-scale"
+        >
+          <div
+            class="flex flex-col space-y-1.5 p-0"
+          >
+            <div
+              class="relative h-64"
+            >
+              <img
+                alt="Cannondale Topstone available in Haymarket and Gainesville, VA"
+                class="w-full h-full object-cover"
+                src="/images/products/topstone.jpg"
+              />
+              <div
+                class="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent text-primary-foreground hover:bg-primary/80 absolute top-4 right-4 bg-accent"
+              >
+                Featured
+              </div>
+            </div>
+          </div>
+          <div
+            class="p-6"
+          >
+            <h3
+              class="text-xl font-semibold mb-2"
+            >
+              Cannondale Topstone
+            </h3>
+            <p
+              class="text-sm text-muted-foreground"
+            >
+              Gravel Bikes
+            </p>
+            <p
+              class="text-lg font-semibold mt-2"
+            >
+              $2,799.99
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;

@@ -2,34 +2,20 @@ import React from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
 import { Badge } from './ui/badge';
 
-const products = [
-  {
-    id: 'emonda-sl6',
-    name: 'Trek Émonda SL 6',
-    category: 'Road Bikes',
-    price: '$4,399.99',
-    image: 'https://images.unsplash.com/photo-1532298229144-0ec0c57515c7?auto=format&fit=crop&q=80',
-    badge: 'Best Seller',
-  },
-  {
-    id: 'supercal',
-    name: 'Trek Supercaliber SL',
-    category: 'Mountain Bikes',
-    price: '$3,299.99',
-    image: 'https://images.unsplash.com/photo-1576435728678-68d0fbf94e91?auto=format&fit=crop&q=80',
-    badge: 'New Arrival',
-  },
-  {
-    id: 'topstone',
-    name: 'Cannondale Topstone',
-    category: 'Gravel Bikes',
-    price: '$2,799.99',
-    image: 'https://images.unsplash.com/photo-1485965120184-e220f721d03e?auto=format&fit=crop&q=80',
-    badge: 'Featured',
-  },
-];
+interface Product {
+  id: string;
+  name: string;
+  category: string;
+  price: string;
+  image: string;
+  badge: string;
+}
 
-export function FeaturedProducts() {
+interface FeaturedProductsProps {
+  products: Product[];
+}
+
+export function FeaturedProducts({ products }: FeaturedProductsProps) {
   return (
     <section className="py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
