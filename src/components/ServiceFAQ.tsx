@@ -40,7 +40,7 @@ const faqs = [
   {
     question: 'Do you service all e-bike brands and systems?',
     answer:
-      'Yes, our certified technicians are trained on all major e-bike systems including Bosch, Shimano, Brose, Yamaha, and Bafang. We have the diagnostic tools and expertise to service both mid-drive and hub motor systems.',
+      'No, we only service e-bikes that are made by reputable brands. Our certified technicians are trained on all major e-bike systems including Bosch, Shimano, Aventon, and Aima. We have the diagnostic tools and expertise to service both mid-drive and hub motor systems.',
   },
   {
     question: 'How often should I service my e-bike?',
